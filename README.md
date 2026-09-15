@@ -1,5 +1,5 @@
 # 🤖 Mini OLED Display Animation (Robotics & IoT)
-> **Designed & Developed with ❤️ by // Ankit Satnami**
+> **Designed & Developed by // Ankit Satnami**
 
 Welcome to the **Mini OLED Display Animation** project! This repository provides a dynamic, animated "eye" display perfect for giving a personality to your robotics, IoT devices, ESP32, and Arduino projects. 
 
