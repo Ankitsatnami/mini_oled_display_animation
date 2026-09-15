@@ -67,13 +67,14 @@ graph LR
 - **ESP32**: <br/> <img src="with%20ESP32.png" alt="With ESP32" width="400"/>
 
 ### 2. Software Setup
-- Install the [Arduino IDE](https://www.arduino.cc/en/software).
-- Install the required libraries via the Arduino Library Manager:
-  - `U8g2` by oliver
-  - `Adafruit SSD1306` and `Adafruit GFX Library`
-- Open the `mini_oled_animation/mini_oled_animation.ino` file.
-- Configure your display library by editing `config.h` (Uncomment either `#define USE_U8G2` or `#define USE_ADAFRUIT_SSD1306`).
-- Compile and upload!
+1. **Download the Code**: Click the green **"Code"** button at the top of this GitHub page and select **"Download ZIP"**. Extract the downloaded ZIP file.
+2. Install the [Arduino IDE](https://www.arduino.cc/en/software).
+3. Install the required libraries via the Arduino Library Manager (`Sketch -> Include Library -> Manage Libraries`):
+   - `U8g2` by oliver
+   - `Adafruit SSD1306` and `Adafruit GFX Library`
+4. Open the `mini_oled_animation/mini_oled_animation.ino` file from your extracted ZIP. The Arduino IDE will automatically load the accompanying `.h` files.
+5. Configure your display library by editing `config.h` (Uncomment either `#define USE_U8G2` or `#define USE_ADAFRUIT_SSD1306`).
+6. Compile and upload!
 
 ---
 
