@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLED Eye Simulator - Robotics & IoT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="simulator-container">
+        <header>
+            <h1>OLED Display Simulator</h1>
+            <p>Interactive playground for the Mini OLED Animation code.</p>
+        </header>
+
+        <main>
+            <div class="oled-wrapper">
+                <div class="oled-bezel">
+                    <!-- The canvas represents the 128x64 display. CSS will scale it up. -->
+                    <canvas id="oled-display" width="128" height="64"></canvas>
+                </div>
+            </div>
+
+            <div class="control-panel">
+                <h2>Animation Controls</h2>
+                <div class="button-grid">
+                    <button class="btn" onclick="triggerAnimation('WAKEUP')">Wakeup</button>
+                    <button class="btn" onclick="triggerAnimation('SLEEP')">Sleep</button>
+                    <button class="btn" onclick="triggerAnimation('BLINK_SHORT')">Blink (Short)</button>
+                    <button class="btn" onclick="triggerAnimation('BLINK_LONG')">Blink (Long)</button>
+                    <button class="btn" onclick="triggerAnimation('HAPPY')">Happy</button>
+                    <button class="btn" onclick="triggerAnimation('SACCADE_RANDOM')">Random Saccade</button>
+                    <button class="btn" onclick="triggerAnimation('MOVE_LEFT_BIG')">Move Left</button>
+                    <button class="btn" onclick="triggerAnimation('MOVE_RIGHT_BIG')">Move Right</button>
+                    <button class="btn btn-reset" onclick="triggerAnimation('RESET')">Reset Center</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Designed for // Ankit Satnami's Robotics & IoT projects.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
