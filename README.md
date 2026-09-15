@@ -43,11 +43,14 @@ graph LR
     A5 -->|Clock| SCL
 ```
 
-**Pin Mapping Reference:**
-- **VCC** -> 5V (or 3.3V depending on your display's rating)
-- **GND** -> GND
-- **SDA** -> A4 (Arduino Nano/Uno) or GPIO 21 (ESP32)
-- **SCL** -> A5 (Arduino Nano/Uno) or GPIO 22 (ESP32)
+### 📍 Pin Mapping Reference
+
+| OLED Pin | Arduino Nano | Arduino Uno | ESP32 |
+| :--- | :--- | :--- | :--- |
+| **VCC** | 5V / 3.3V | 5V / 3.3V | 3.3V |
+| **GND** | GND | GND | GND |
+| **SDA** | A4 | A4 | GPIO 21 |
+| **SCL** | A5 | A5 | GPIO 22 |
 
 ### 📸 Circuit References
 - **Arduino Nano**: <br/> <img src="with%20Arduino%20Nano.png" alt="With Arduino Nano" width="400"/>
