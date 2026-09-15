@@ -14,9 +14,15 @@ Whether you're building a desktop companion robot, an interactive smart-home hub
 - **📚 Library Support**: Compatible with both `U8G2` and `Adafruit_SSD1306` drivers for maximum flexibility.
 - **🌐 IoT & Serial Ready**: Send commands over Serial (USB/Bluetooth/WiFi via ESP32) to trigger animations dynamically based on sensor inputs or network commands.
 - **🐍 Python Integration**: Includes a Python script to control the eyes via Serial - perfect for Raspberry Pi or PC-to-Microcontroller communication.
+## 🎮 Interactive Web Simulator
 
+Want to see the code in action without building the hardware? 
+We've included a **Web-Based OLED Simulator** right in this repository! It perfectly mimics the C++ animation code directly in your browser.
 
+- **How to play:** Just download the repository and double-click `web_simulation/index.html` to open it in Chrome, Edge, or Safari!
+- **Features:** Click the on-screen push buttons to instantly trigger the Happy, Wakeup, Sleep, and Saccade animations.
 
+---
 ## 🔌 Circuit & Wiring Diagram
 
 Wiring the OLED to an Arduino Nano is very simple via the I2C interface:
