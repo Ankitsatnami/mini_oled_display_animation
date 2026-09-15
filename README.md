@@ -15,19 +15,7 @@ Whether you're building a desktop companion robot, an interactive smart-home hub
 - **🌐 IoT & Serial Ready**: Send commands over Serial (USB/Bluetooth/WiFi via ESP32) to trigger animations dynamically based on sensor inputs or network commands.
 - **🐍 Python Integration**: Includes a Python script to control the eyes via Serial - perfect for Raspberry Pi or PC-to-Microcontroller communication.
 
----
 
-## 🚀 Getting Started
-
-### 1. Hardware Components & Details
-
-| Component | Description | Reference Image |
-| :--- | :--- | :--- |
-| **Arduino Nano** | The brain of the project. You can also use an ESP32, Uno, or Raspberry Pi Pico. | <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Arduino_Nano.jpg" width="150" alt="Arduino Nano"/> |
-| **0.96" OLED I2C** | The display used for the eyes. (SSD1306 or SH1107). Needs an I2C interface (4 pins). | <img src="oled%20Display.jpg" width="150" alt="OLED Display"/> |
-| **Jumper Wires** | 4x wires to connect the display to the microcontroller. | |
-
----
 
 ## 🔌 Circuit & Wiring Diagram
 
@@ -66,17 +54,7 @@ graph LR
 - **Arduino Uno**: <br/> <img src="with%20Arduino%20Uno.png" alt="With Arduino Uno" width="400"/>
 - **ESP32**: <br/> <img src="with%20ESP32.png" alt="With ESP32" width="400"/>
 
-### 2. Software Setup
-1. **Download the Code**: Click the green **"Code"** button at the top of this GitHub page and select **"Download ZIP"**. Extract the downloaded ZIP file.
-2. Install the [Arduino IDE](https://www.arduino.cc/en/software).
-3. Install the required libraries via the Arduino Library Manager (`Sketch -> Include Library -> Manage Libraries`):
-   - `U8g2` by oliver
-   - `Adafruit SSD1306` and `Adafruit GFX Library`
-4. Open the `mini_oled_animation/mini_oled_animation.ino` file from your extracted ZIP. The Arduino IDE will automatically load the accompanying `.h` files.
-5. Configure your display library by editing `config.h` (Uncomment either `#define USE_U8G2` or `#define USE_ADAFRUIT_SSD1306`).
-6. Compile and upload!
 
----
 
 ## 📡 Serial Commands (IoT / Robotics Integration)
 
