@@ -43,15 +43,6 @@ graph LR
     A5 -->|Clock| SCL
 ```
 
-### 📍 Pin Mapping Reference
-
-| OLED Pin | Arduino Nano | Arduino Uno | ESP32 |
-| :--- | :--- | :--- | :--- |
-| **VCC** | 5V / 3.3V | 5V / 3.3V | 3.3V |
-| **GND** | GND | GND | GND |
-| **SDA** | A4 | A4 | GPIO 21 |
-| **SCL** | A5 | A5 | GPIO 22 |
-
 ### 📸 Circuit References
 - **Arduino Nano**: <br/> <img src="with%20Arduino%20Nano.png" alt="With Arduino Nano" width="400"/>
 - **Arduino Uno**: <br/> <img src="with%20Arduino%20Uno.png" alt="With Arduino Uno" width="400"/>
@@ -75,6 +66,15 @@ Send `A` followed by the animation index (e.g., `A0`, `A6`).
 | `A6`    | Happy     |
 | `A7`    | Sleep     |
 | `A8`    | Random Saccade |
+
+### 📍 Pin Mapping Reference
+
+| OLED Pin | Arduino Nano | Arduino Uno | ESP32 |
+| :--- | :--- | :--- | :--- |
+| **VCC** | 5V / 3.3V | 5V / 3.3V | 3.3V |
+| **GND** | GND | GND | GND |
+| **SDA** | A4 | A4 | GPIO 21 |
+| **SCL** | A5 | A5 | GPIO 22 |
 
 ---
 
