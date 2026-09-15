@@ -76,6 +76,16 @@ Send `A` followed by the animation index (e.g., `A0`, `A6`).
 | **SDA** | A4 | A4 | GPIO 21 |
 | **SCL** | A5 | A5 | GPIO 22 |
 
+### 🔘 Push Button Mapping (Active LOW)
+
+| Button (Animation) | Arduino Nano | Arduino Uno | ESP32 | Signal to Trigger |
+| :--- | :--- | :--- | :--- | :--- |
+| **Wakeup** | D2 | D2 | GPIO 25 | `LOW` (Connect to GND) |
+| **Sleep** | D3 | D3 | GPIO 26 | `LOW` (Connect to GND) |
+| **Happy** | D4 | D4 | GPIO 27 | `LOW` (Connect to GND) |
+
+> **Note:** The code uses `INPUT_PULLUP`, so you only need to connect a button between the pin and GND. No external resistors are needed!
+
 ---
 
 ## 🐍 Python Control
