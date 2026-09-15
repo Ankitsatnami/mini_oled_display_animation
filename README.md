@@ -24,7 +24,7 @@ Whether you're building a desktop companion robot, an interactive smart-home hub
 | Component | Description | Reference Image |
 | :--- | :--- | :--- |
 | **Arduino Nano** | The brain of the project. You can also use an ESP32, Uno, or Raspberry Pi Pico. | <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Arduino_Nano.jpg" width="150" alt="Arduino Nano"/> |
-| **0.96" OLED I2C** | The display used for the eyes. (SSD1306 or SH1107). Needs an I2C interface (4 pins). | <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/OLED_Displays.jpg" width="150" alt="OLED Display"/> |
+| **0.96" OLED I2C** | The display used for the eyes. (SSD1306 or SH1107). Needs an I2C interface (4 pins). | <img src="oled%20Display.jpg" width="150" alt="OLED Display"/> |
 | **Jumper Wires** | 4x wires to connect the display to the microcontroller. | |
 
 ---
@@ -60,6 +60,11 @@ graph LR
 - **GND** -> GND
 - **SDA** -> A4 (Arduino Nano/Uno) or GPIO 21 (ESP32)
 - **SCL** -> A5 (Arduino Nano/Uno) or GPIO 22 (ESP32)
+
+### 📸 Circuit References
+- **Arduino Nano**: <br/> <img src="with%20Arduino%20Nano.png" alt="With Arduino Nano" width="400"/>
+- **Arduino Uno**: <br/> <img src="with%20Arduino%20Uno.png" alt="With Arduino Uno" width="400"/>
+- **ESP32**: <br/> <img src="with%20ESP32.png" alt="With ESP32" width="400"/>
 
 ### 2. Software Setup
 - Install the [Arduino IDE](https://www.arduino.cc/en/software).
