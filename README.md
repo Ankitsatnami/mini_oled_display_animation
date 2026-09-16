@@ -25,29 +25,6 @@ We've included a **Web-Based OLED Simulator** right in this repository! It perfe
 ---
 ## 🔌 Circuit & Wiring Diagram
 
-Wiring the OLED to an Arduino Nano is very simple via the I2C interface:
-
-```mermaid
-graph LR
-    subgraph Arduino Nano
-        5V[5V / 3V3]
-        GND[GND]
-        A4[A4 - SDA]
-        A5[A5 - SCL]
-    end
-
-    subgraph 0.96" OLED Display
-        VCC[VCC]
-        O_GND[GND]
-        SDA[SDA]
-        SCL[SCL]
-    end
-
-    5V -->|Power| VCC
-    GND -->|Ground| O_GND
-    A4 -->|Data| SDA
-    A5 -->|Clock| SCL
-```
 
 ### 📸 Circuit References
 - **Arduino Nano**: <br/> <img src="with%20Arduino%20Nano.png" alt="With Arduino Nano" width="400"/>
