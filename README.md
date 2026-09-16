@@ -23,7 +23,8 @@ Whether you're building a desktop companion robot, an interactive smart-home hub
 Want to see the code in action without building the hardware? 
 We've included a **Web-Based OLED Simulator** right in this repository! It perfectly mimics the C++ animation code directly in your browser.
 
-- **How to play:** Just download the repository and double-click `web_simulation/index.html` to open it in Chrome, Edge, or Safari!
+- **Play Online:** 👉 **[Click Here to Launch Simulator in Browser](https://htmlpreview.github.io/?https://github.com/Ankitsatnami/mini_oled_display_animation/blob/main/web_simulation/index.html)** 👈
+- **Play Offline:** Just download the repository and double-click `web_simulation/index.html` to open it locally.
 - **Features:** Click the on-screen push buttons to instantly trigger the Happy, Wakeup, Sleep, and Saccade animations.
 
 ---
