@@ -9,17 +9,6 @@
 // --- Constants ---
 const long BAUD_RATE = 115200;
 
-// --- Push Button Pins ---
-#if defined(ESP32)
-  const int BTN_WAKEUP = 25;
-  const int BTN_SLEEP = 26;
-  const int BTN_HAPPY = 27;
-#else
-  // Default for Arduino Nano / Uno
-  const int BTN_WAKEUP = 2;
-  const int BTN_SLEEP = 3;
-  const int BTN_HAPPY = 4;
-#endif
 
 // Use an enum for animation indexes to avoid "magic numbers"
 enum Animation {
@@ -314,10 +303,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(BAUD_RATE);
 
-  // Initialize push buttons with internal pull-up resistors
-  pinMode(BTN_WAKEUP, INPUT_PULLUP);
-  pinMode(BTN_SLEEP, INPUT_PULLUP);
-  pinMode(BTN_HAPPY, INPUT_PULLUP);
+
 
   g_init_display();
 
@@ -396,22 +382,7 @@ void loop() {
     }
   }
 
-  // Check Physical Push Buttons (Active LOW)
-  if (digitalRead(BTN_WAKEUP) == LOW) {
-    demo_mode = 0;
-    launch_animation_with_index(WAKEUP);
-    delay(300); // Debounce
-  }
-  if (digitalRead(BTN_SLEEP) == LOW) {
-    demo_mode = 0;
-    launch_animation_with_index(SLEEP);
-    delay(300); // Debounce
-  }
-  if (digitalRead(BTN_HAPPY) == LOW) {
-    demo_mode = 0;
-    launch_animation_with_index(HAPPY);
-    delay(300); // Debounce
-  }
+
 
   
   //send "Ax" for animation x  (ex. A2 will launch animation 2)
