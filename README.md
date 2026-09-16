@@ -1,7 +1,11 @@
 # 🤖 Mini OLED Display Animation (Robotics & IoT)
-> **Designed & Developed by // Ankit Satnami**
+> **A Project by [Funway To Science](https://www.youtube.com/@FunwayToScience) (Ankit Satnami)**
 
-Welcome to the **Mini OLED Display Animation** project! This repository provides a dynamic, animated "eye" display perfect for giving a personality to your robotics, IoT devices, ESP32, and Arduino projects. 
+[![YouTube Channel](https://img.shields.io/badge/YouTube-Funway_To_Science-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@FunwayToScience)
+
+Welcome to the **Mini OLED Display Animation** project! This repository contains the code for the dynamic OLED eyes featured in my robotics, engineering, and DIY projects on **Funway To Science**. 
+
+If you enjoy practical tech builds, IoT systems, and awesome science experiments, make sure to **[Subscribe to the channel!](https://www.youtube.com/@FunwayToScience)** 🚀
 
 Whether you're building a desktop companion robot, an interactive smart-home hub, or an ESP32-powered wearable, these OLED eyes will bring your hardware to life!
 
@@ -76,6 +80,6 @@ python python/example.py --port COM4
 
 ## 🤝 Credits & Shoutouts
 - **Original Concept**: intellar.ca
-- **Robotics/IoT Customization & Redesign**: // Ankit Satnami
+- **Robotics/IoT Customization & Redesign**: [Funway To Science](https://www.youtube.com/@FunwayToScience) (Ankit Satnami)
 
-If you use this in your robotics or IoT project, feel free to give a shoutout! 🚀
+If you use this in your robotics or IoT project, feel free to give a shoutout to the channel! 🚀
